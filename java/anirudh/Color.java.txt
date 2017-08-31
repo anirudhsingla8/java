@@ -1,0 +1,43 @@
+import java.awt.*;
+class Color
+{
+Frame F;
+Label L,L1,L2;
+TextField T,T1,T2;
+
+
+Color()
+{
+F=new Frame();
+F.setSize(400,400);
+F.setLayout(null);
+L=new Label("RED");
+L.setBounds(30,30,40,30);
+F.add(L);
+T=new TextField();
+T.setBounds(80,30,40,30);
+F.add(T);
+L1=new Label("BLUE");
+L1.setBounds(30,70,40,30);
+F.add(L1);
+T1=new TextField();
+T1.setBounds(80,70,40,30);
+F.add(T1);
+L2=new Label("GREEN");
+L2.setBounds(30,110,50,30);
+F.add(L2);
+T2=new TextField();
+T2.setBounds(90,110,40,30);
+F.add(T2);
+F.setVisible(true);
+}
+public static void main(String z[])
+{
+Color ob=new Color();
+
+}
+
+
+}
+
+
